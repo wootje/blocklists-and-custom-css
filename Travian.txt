@@ -1,0 +1,97 @@
+!---- Travian: Start ----!
+
+! Block some domains
+||consensu.org
+||cdn.consentmanager.net
+||consentmanager.net
+||cdn.consentmanager.mgr.consensu.org
+
+! Remove banner in sarracks, stables, workshop, marketplace, etc.
+! Now I don't have to scroll down to click the Build button
+travian.com##.levelSpecificInfo.upgradeHeader:style(background-color:#68732e!important)
+travian.com###build .upgradeHeader #build_value:style(margin-left:70px!important)
+
+! Remove footer because it is useless
+travian.com###footer
+
+! Remove Travian logo on top-left
+travian.com###logo
+
+!---- Custom CSS ----!
+
+! Body
+travian.com##body:style(letter-spacing:0.2px)
+
+! Remove some height:
+! Link & village list smaller text & lines less height
+! Header
+travian.com###topBar:matches-media((min-width: 1400px)):style(margin-bottom:89px!important;height:30px!important)
+! All 3 columns
+travian.com###center:style(max-width:100%!important;margin:2px auto!important;padding 0 25px!important)
+! Left column
+travian.com###sidebarBeforeContent:matches-media((min-width: 1400px)):style(margin-top:-85px!important;margin-left:auto;margin-right:70px)
+travian.com##.beforeContent.sidebar:style(font-size: 12.5px!important;line-height: 13px!important)
+travian.com###sidebarBoxAlliance:matches-media((min-width: 1400px)):style(width:220px!important;margin-right:80px!important)
+travian.com###sidebarBoxAlliance:style(magin-bottom:-15px;margin-top:5px!important)
+travian.com###sidebarBoxAlliance .content .boxTitle .name:style(margin-top:6px;margin-bottom:-8px)
+travian.com###sidebarBoxInfobox:style(margin-top:0px)
+travian.com###sidebarBoxAlliance .content:style(line-height:15px)
+travian.com###sidebarBoxInfobox > .content > ul:style(min-height:0px!important)
+travian.com###sidebarBoxLinklist:style(margin-top:-11px!important)
+travian.com##.sidebar #sidebarBoxLinklist .content ul li a .name:style(margin-top:1.5px!important)
+! Right column
+travian.com###sidebarAfterContent:matches-media((min-width: 1400px)):style(margin-top:-75px!important;margin-right:auto;margin-left:60px)
+travian.com###sidebarAfterContent:style(margin-top:-11px)
+travian.com###sidebarBoxActiveVillage:matches-media((min-width: 1400px)):style(width:210px!important;margin-left:90px!important)
+travian.com###sidebarBoxActiveVillage:style(line-height:13px;margin-top:-5px;font-size:12.5px)
+travian.com###sidebarBoxActiveVillage .header .buttonsWrapper:style(width:180px;margin-left:20px!important)
+travian.com###sidebarBoxActiveVillage .header .buttonsWrapper .layoutButton:style(margin-left:2px!important)
+travian.com###sidebarBoxActiveVillage .content .playerName:style(font-size:16px!important;line-height:17px;font-family:"Noto Serif";text-transform:uppercase;font-weight:700;color:#5e463a;letter-spacing:.1e;margin-left:3px;margin-top:2px;margin-bottom:2px)
+travian.com###sidebarBoxActiveVillage .content .villageName:style(padding-bottom:3px)
+travian.com###sidebarBoxActiveVillage .content .population:style(text-align: center;width: 70px)
+travian.com###sidebarBoxActiveVillage .content .loyalty:style(text-align:center!important;margin-bottom:-10px)
+travian.com##.loyalty.medium:style(text-align: center!important;margin-bottom:-14px)
+travian.com###sidebarBoxVillagelist:style(margin-top:3px!important)
+travian.com###sidebarBoxVillagelist .content:style(padding-bottom:36px!important)
+travian.com###sidebarBoxVillagelist .content .expansionSlotInfo:style(margin-bottom:0px)
+travian.com##.villageList:style(line-height:13px!important;font-size:12.5px!important)
+travian.com##.iconAndNameWrapper .name:style(margin-top: 1.5px!important)
+travian.com###sidebarBoxQuestmaster:style(margin-top:-8px!important)
+travian.com###sidebarBoxQuestmaster .content .progressiveTasksTitle .boxTitle:style(padding: 0px!important;margin-left: 5px!important)
+travian.com###questmasterButton:style(height: 110px!important;margin-bottom: -5px!important)
+
+! Building troops view
+travian.com##.completed.upgradeBuilding:style(margin-bottom:1px)
+travian.com###nonFavouriteTroops:style(margin-top:-15px)
+travian.com###build:style(margin-top:-10px)
+travian.com###build_value:style(line-height: 14px!important)
+travian.com##.under_progress:style(margin-top:10px!important)
+travian.com##.under_progress:style(margin-top:10px!important)
+travian.com###outOfGame:style(height:28px)
+travian.com###nonFavouriteTroops:style(overflow:auto;max-height:40px)
+travian.com###build .upgradeHeader .buildingIllustration:style(background-image:none!important)
+travian.com###build .upgradeHeader:style(height:85px!important)
+travian.com###build .bigUnitSection:style(height: 90px!important;width: 90px!important;margin-top:-30px;border:none!important)
+travian.com##.build_details .researches:style(border: none)
+travian.com##.unitZoom .unitSection:style(margin-top:5px!important)
+travian.com##.unitZoom:style(transform: scale(0.7)!important)
+travian.com##.build_details .research:style(height: 90px!important)
+! Various
+travian.com##.scrollingContainer:style(margin-top:0;margin-bottom:0)
+travian.com##.subNavi.contentNavi:style(top:-15px;margin-bottom:-10px;padding:2px;height:48px)
+travian.com##.navigationSpacer:style(margin-top:10px)
+travian.com##.contentNavi.subNavi:style(padding:2px;margin-bottom:-1-px)
+travian.com##.subNavi.contentNavi:style(padding:2px;margin-bottom:-9px!important)
+travian.com###contentOuterContainer:style(margin-top:0px!important)
+! Top 10
+travian.com##.top10Wrapper .top10 .hoverable .hover:style(margin-top:2px!important)
+travian.com##.top10Wrapper .top10 .hoverable .hover .ra:style(padding-top:3px!important;padding-bottom: 0px!important)
+travian.com##.top10Wrapper .top10 .hoverable .hover .tribe:style(padding-top:3px!important;padding-bottom: 0px!important)
+travian.com##.top10Wrapper .top10 .hoverable .hover .pla:style(padding-top:3px!important;padding-bottom: 0px!important)
+travian.com##.top10Wrapper .top10 .hoverable .hover .val:style(padding-top:3px!important;padding-bottom: 0px!important)
+travian.com##.top10Wrapper .top10 .hoverable .own .ra:style(padding-top:3px!important;padding-bottom: 0px!important)
+travian.com##.top10Wrapper .top10 .hoverable .own .tribe:style(padding-top:3px!important;padding-bottom: 0px!important)
+travian.com##.top10Wrapper .top10 .hoverable .own .pla:style(padding-top:3px!important;padding-bottom: 0px!important)
+travian.com##.top10Wrapper .top10 .hoverable .own .val:style(padding-top:3px!important;padding-bottom: 0px!important)
+
+!---- Travian: End ----!
