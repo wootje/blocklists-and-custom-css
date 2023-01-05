@@ -1,5 +1,5 @@
 # ublock-custom-css
-Use uBlock to apply custom CSS to create a better interfacee.
+Use uBlock to apply custom CSS to create a better interface.
 
 Add the link in <a href="https://github.com/gorhill/uBlock">uBlock</a> like a block list and the interface will be updated.
 
