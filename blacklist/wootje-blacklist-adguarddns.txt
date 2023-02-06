@@ -1,0 +1,37 @@
+###
+###
+### whitelist by wootje for AdGuardHome 
+###
+### 
+
+
+
+###
+### single domains
+###
+
+# Google
+android-safebrowsing.google.com
+safebrowsing.googleapis.com
+firebaseinstallations.googleapis.com
+mtalk.google.com
+
+# Netflix
+push.prod.netflix.com
+preapp.prod.partner.netflix.net
+nrdp-ipv6.prod.ftl.netflix.com
+ichnaea.netflix.com
+nrdp.prod.cloud.netflix.com
+
+# Various
+guardianproject.info
+api.revenuecat.com
+www.sony.net
+
+
+
+###
+### wildcard domains
+###
+
+||3gpnetwork.org^

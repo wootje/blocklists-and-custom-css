@@ -1,0 +1,34 @@
+###
+###
+### whitelist by wootje for AdGuardHome 
+###
+### 
+
+
+###
+### single domains
+###
+
+go.microsoft.com
+app-measurement.com
+imappro.zoho.eu
+translate.google.com
+www.w3schools.com
+partner.bol.com
+api.mixpanel.com
+disneyplus.bn5x.net
+sdk.iad-03.braze.com
+sanalytics.disneyplus.com
+dhgate.com
+apkcombo.com
+
+
+###
+### wildcard domains
+###
+
+||9anime.pl^
+||dlinders.nl^
+||zoho.eu^
+||zoho.com^
+||purevpn.com^
