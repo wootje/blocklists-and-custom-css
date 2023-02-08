@@ -16,10 +16,18 @@ disneyplus.bn5x.net
 sdk.iad-03.braze.com
 sanalytics.disneyplus.com
 dhgate.com
+answers.microsoft.com
 edge.microsoft.com
 go.microsoft.com
+oca.microsoft.com
+support.microsoft.com
+settings-win.data.microsoft.com
 store-images.s-microsoft.com
 www.microsoft.com
+g.live.com
+m.hotmail.com
+login.live.com
+
 
 
 ###
