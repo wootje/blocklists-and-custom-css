@@ -20,7 +20,7 @@ travian.com###logo
 !---- Custom CSS ----!
 
 ! Body
-travian.com##body:style(letter-spacing:0.2px)
+travian.com##body:style(letter-spacing:0.2px;min-width:auto!important;)
 
 ! Remove some height:
 ! Link & village list smaller text & lines less height
@@ -40,8 +40,10 @@ travian.com###sidebarBoxInfobox > .content > ul:style(min-height:0px!important)
 travian.com###sidebarBoxLinklist:style(margin-top:-11px!important)
 travian.com##.sidebar #sidebarBoxLinklist .content ul li a .name:style(margin-top:1.5px!important)
 ! Right column
+travian.com###answersButton:style(right:345px!important;)
 travian.com###sidebarAfterContent:matches-media((min-width: 1400px)):style(margin-top:-75px!important;margin-right:auto;margin-left:60px)
-travian.com###sidebarAfterContent:style(margin-top:-11px)
+travian.com###sidebarAfterContent:style(justify-self:auto!important;)
+travian.com##.village1 .villageInfoWrapper:style(width: 680px!important;)
 travian.com###sidebarBoxActiveVillage:matches-media((min-width: 1400px)):style(width:210px!important;margin-left:90px!important)
 travian.com###sidebarBoxActiveVillage:style(line-height:13px;margin-top:-5px;font-size:12.5px)
 travian.com###sidebarBoxActiveVillage .header .buttonsWrapper:style(width:180px;margin-left:20px!important)
