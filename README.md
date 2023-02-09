@@ -37,7 +37,10 @@ Big accounts have to go up and down the page all the time because the list with 
 Before you can build troops, you will have to add units as favourite. This way you can choose which troops will be displayed so you don't build the wrong units by accident.
 <br>
 <br>
+It's possible open 2 windows side by side without scroll bars on ultrawide screens (21:9 / 2560x1080).
+<br>
+<br>
 Link: https://github.com/wootje/ublock-custom-css/blob/main/Travian/Travian.txt
 <br>
 <br>
-![](https://github.com/wootje/ublock-custom-css/blob/main/Travian/Travian_custom_CSS.png)
+![](/Travian/screenshot_widescreen.png)
