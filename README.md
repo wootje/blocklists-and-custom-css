@@ -19,7 +19,7 @@ Now it's easy to find the song that's playing!
 The menu that pops-up when you right click is now completely visible. By default often scrollbars appear.
 <br>
 <br>
-Link: https://github.com/wootje/ublock-custom-css/blob/main/YouTube_Music/YouTube_Music.txt
+Link: https://raw.githubusercontent.com/wootje/blocklists-and-custom-css/main/YouTube_Music/YouTube_Music.txt
 <br>
 <br>
 ![](https://github.com/wootje/ublock-custom-css/blob/main/YouTube_Music/YouTube_Music_custom_CSS.png)
@@ -40,7 +40,7 @@ Before you can build troops, you will have to add units as favourite. This way y
 It's possible open 2 windows side by side without scroll bars on ultrawide screens (21:9 / 2560x1080).
 <br>
 <br>
-Link: https://github.com/wootje/ublock-custom-css/blob/main/Travian/Travian.txt
+Link: https://raw.githubusercontent.com/wootje/blocklists-and-custom-css/main/Travian/Travian.txt
 <br>
 <br>
 ![](/Travian/screenshot_widescreen.png)
