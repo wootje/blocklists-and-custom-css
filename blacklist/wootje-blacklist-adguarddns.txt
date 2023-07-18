@@ -32,4 +32,7 @@
 ||3gpnetwork.org^
 ||guardianproject.info^
 ||api.revenuecat.com^
-
+||api.erabu.sony.tv^
+||metadata.erabu.sony.tv^
+||cdn.consentmanager.net^
+||d.delivery.consentmanager.net^
