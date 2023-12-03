@@ -19,12 +19,6 @@ Now it's easy to find the song that's playing!
 The menu that pops-up when you right click is now completely visible. By default often scrollbars appear.
 <br>
 <br>
-Link: [https://raw.githubusercontent.com/wootje/blocklists-and-custom-css/main/YouTube_Music/YouTube_Music.txt](https://raw.githubusercontent.com/wootje/blocklists-and-custom-css/main/YouTube_Music/YouTubeMusic-wootje-edit.css)
-<br>
-<br>
-<img src="https://github.com/wootje/ublock-custom-css/blob/main/YouTube_Music/YouTube_Music_custom_CSS.png">
-<br>
-<br>
 <br>
 <br>
 <br>
