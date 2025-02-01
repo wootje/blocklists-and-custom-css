@@ -1,0 +1,85 @@
+#contents.style-scope.ytmusic-player-queue { 
+	background-color:#ffffff0d!important;
+	border-style:ridge!important;
+	border-width:thick!important;
+	border-color:#00000000!important;
+	border-radius:5px!important;
+}
+
+#primary-renderer:hover { 
+	background-color:#ffffff0d!important;
+}
+
+tp-yt-iron-dropdown.style-scope.ytmusic-popup-container { 
+	top:auto!important;
+}
+
+tp-yt-paper-listbox#items { 
+	display:inline-block!important;
+	margin-top:auto!important;
+	margin-bottom:auto!important;
+	position:relative!important;
+}
+
+ytmusic-menu-popup-renderer { 
+	display:inline-block!important;
+	margin-top:auto!important;
+	margin-bottom:auto!important;
+	max-height:850px!important;
+	height:1850px!important;
+}
+
+tp-yt-iron-dropdown { 
+	margin-top:auto!important;
+	margin-bottom:auto!important;
+}
+
+ytmusic-player-queue-item[play-button-state=paused],
+ytmusic-player-queue-item[play-button-state=playing],
+[play-button-state="playing"] {
+    background: #0b4881 !important;
+    border-color: #e4e4e4d4 !important;
+    border-style: solid !important;
+    border-width: thin !important;
+    border-radius: 5px !important;
+}
+
+.left-items.style-scope.ytmusic-player-queue-item,
+.song-info.style-scope.ytmusic-player-queue-item,
+.content-wrapper.style-scope.ytmusic-play-button-renderer { 
+	margin-left: 5px!important;
+}
+
+yt-formatted-string.duration.style-scope.ytmusic-player-queue-item { 
+	margin-right:10px!important;
+}
+
+.side-panel.modular.style-scope.ytmusic-player-page {
+    background-color: #0b4881;
+    border-radius: 10px;
+}
+
+.gradient-box.style-scope.ytmusic-chip-cloud-chip-renderer {
+    margin-left: 15px;
+}
+
+ytmusic-tab-renderer#tab-renderer {
+    border-bottom: 5px inset #030303;
+}
+
+ytmusic-two-row-item-renderer:hover,
+ytmusic-responsive-list-item-renderer:hover,
+ytmusic-player-queue-item:hover {
+    background-color: #90909070;
+  	border-radius: 5px;
+}
+
+ytmusic-menu-service-item-renderer:hover,
+ytmusic-toggle-menu-service-item-renderer:hover,
+ytmusic-menu-service-item-download-renderer:hover,
+ytmusic-menu-navigation-item-renderer:hover {
+    background: #1c305b !important;
+}
+
+/*play-button-state="playing" {
+}*/
