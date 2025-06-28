@@ -38,3 +38,9 @@ Link: https://raw.githubusercontent.com/wootje/blocklists-and-custom-css/main/Tr
 <br>
 <br>
 ![](/Travian/screenshot_widescreen.png)
+<br>
+<br>
+<b>Buy me a cup of coffee!</b> 🙂👍 <br>
+https://urlshrt.eu/buycupofcoffee
+<br>
+<br>
